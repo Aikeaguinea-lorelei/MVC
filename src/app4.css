@@ -1,0 +1,20 @@
+/* 设置动画变化的节点 */
+@keyframes change {
+    0%{
+        background: red;
+    }
+    100%{
+        background: blue;
+    }
+}
+#app4 .circle{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    border: 1px solid red ;
+}
+/* 鼠标移上去的时候才有效果 */
+#app4 .circle.active{
+    /*无限播放动画,来回变,线性*/
+    animation: change 1s infinite alternate linear;
+}

@@ -1,0 +1,15 @@
+/* 这是一个全局css */
+
+body{
+    overflow: hidden;
+}
+body > .page{
+    display: flex;
+    /* 自动换行 */
+    flex-wrap: wrap;  
+}
+body > .page > section{
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid grey;
+}
