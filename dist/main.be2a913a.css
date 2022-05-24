@@ -41,10 +41,7 @@ ol,ul{
 }
 #app2 .tab-content > li.active{
     visibility: visible;
-}#app3{
-    
-}
-#app3 .square{
+}#app3 .square{
     border: 1px solid grey;
     margin-top: 10vw;
     margin-left: 10vw;
@@ -52,6 +49,7 @@ ol,ul{
     height: 10vw;
     transition: transform 1s;
 }
+/* 点击这个方块时,向右15 */
 #app3 .square.active{
     transform: translateX(15vw);
 }/* 设置动画变化的节点 */
