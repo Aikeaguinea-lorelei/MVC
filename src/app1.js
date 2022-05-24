@@ -1,5 +1,5 @@
 import './app1.css'  // js自己引用自己的css
-import $ from 'jQuery'
+import $ from 'jquery'
 
 const $button1=$('#add1')
 const $button2=$('#minus1')
