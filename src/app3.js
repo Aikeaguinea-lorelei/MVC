@@ -1,4 +1,4 @@
-import $ from 'jQuery'
+import $ from 'jquery'
 import './app3.css'
 
 // 在JS添加点击事件active
